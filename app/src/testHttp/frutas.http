@@ -6,10 +6,10 @@ GET https://8080-joseaugusto83-j2a1-ddpu5yw6zc7.ws-us115.gitpod.io/frutas/0
 
 ###
 
-POST https://8080-joseaugusto83-j2a1-ddpu5yw6zc7.ws-us115.gitpod.io/frutas
+POST https://8080-joseaugusto83-j2a1-ddpu5yw6zc7.ws-us115.gitpod.io/alunos
 Content-Type: application/json
 Authorization: Bearer ACCESS-TOKEN
 
 {
-    "Nova Fruta": "Nova fruta"
+    "nome": "Igor Gaivião 2 "
 }
