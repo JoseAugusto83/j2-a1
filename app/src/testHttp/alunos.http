@@ -1,0 +1,34 @@
+
+
+###
+
+GET https://8080-joseaugusto83-j2a1-ddpu5yw6zc7.ws-us115.gitpod.io/alunos
+
+###
+
+POST https://8080-joseaugusto83-j2a1-ddpu5yw6zc7.ws-us115.gitpod.io/alunos
+Content-Type: application/json
+Authorization: Bearer ACCESS-TOKEN
+
+{
+    "nome": "Ltrap poca pena"
+}
+
+###
+
+GET https://8080-joseaugusto83-j2a1-ddpu5yw6zc7.ws-us115.gitpod.io/alunos/2
+
+
+###
+
+PUT https://8080-joseaugusto83-j2a1-ddpu5yw6zc7.ws-us115.gitpod.io/alunos/2
+Content-Type: application/json
+Authorization: Bearer ACCESS-TOKEN
+
+{
+    "nome": "Rickao Casada"
+}
+
+
+###
+DELETE https://8080-joseaugusto83-j2a1-ddpu5yw6zc7.ws-us115.gitpod.io/alunos/4
